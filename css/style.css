@@ -1,0 +1,74 @@
+body {
+  background-image: url("/bootstrap_Game/resources/bg.jpg");
+  background-color: #8d8181;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Be Vietnam", sans-serif;
+  padding-top: 60px;
+}
+
+.hide {
+  display: none;
+}
+
+.card-header:first-child {
+  border-radius: 0;
+}
+
+.card-subtitle {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+.list-sm {
+  font-size: 15px;
+}
+
+.list-group-item {
+  background-color: #000;
+  color: #fff;
+}
+
+.card {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0;
+  background-color: #000;
+  color: #fff;
+  border: 0;
+}
+
+.card-header {
+  background-color: orange;
+  color: #fff;
+  font-size: 25px;
+}
+
+.card-img-top {
+  border-radius: 0;
+}
+
+.card-body .btn {
+  padding: 0;
+}
+
+@media (max-width: 575.98px) {
+  .card-text {
+    font-size: 16px;
+  }
+
+  .navbar {
+    display: block !important;
+    text-align: center;
+  }
+
+  .form-inline {
+    display: inline;
+  }
+}
