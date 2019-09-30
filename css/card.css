@@ -5,12 +5,6 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #e4e6e0;
-  font-family: "Be Vietnam", sans-serif;
-
-}
-
-.bg {
   background-image: url("../resources/bg2.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -25,6 +19,8 @@ body {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 10px;
+  color: #e4e6e0;
+  font-family: "Be Vietnam", sans-serif;
 }
 
 #root {

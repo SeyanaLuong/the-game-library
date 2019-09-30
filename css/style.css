@@ -1,10 +1,6 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Be Vietnam", sans-serif;
-}
-
-.bg {
   background-image: url();
   background-blend-mode: overlay;
   background-color: #222020;
@@ -16,9 +12,9 @@ body {
   background-size: cover;
   background-position: center center;
   padding-top: 55px;
-  padding-bottom: 10px;
   height: 100%;
   width: 100%;
+  font-family: "Be Vietnam", sans-serif;
 }
 
 .hide {
