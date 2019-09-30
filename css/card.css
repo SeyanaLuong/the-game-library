@@ -21,6 +21,7 @@ body {
   padding-bottom: 10px;
   color: #e4e6e0;
   font-family: "Be Vietnam", sans-serif;
+
 }
 
 #root {
@@ -167,6 +168,8 @@ a:hover {
 @media (max-width: 600px) {
   body {
     margin-top: 30px;
+    background-image: none;
+    background-color: #971d1d;
   }
 
   h5 {
