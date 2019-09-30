@@ -139,7 +139,7 @@ function getESRB(data) {
 function getIMG(data) {
     if (data.background_image) {
         document.getElementById("gameIMG").src = data.background_image;
-        document.body.style.backgroundImage = `url(${data.background_image})`;
+        document.getElementById("background").style = `background-image: url(${data.background_image})`;
     } else {
         document.getElementById("gameIMG").src = "";
     }

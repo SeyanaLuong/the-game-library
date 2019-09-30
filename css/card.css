@@ -6,7 +6,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #e4e6e0;
-  background-color: #222020;
+  font-family: "Be Vietnam", sans-serif;
+
+}
+
+.bg {
   background-image: url("../resources/bg2.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -16,11 +20,11 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-position: center center;
-  padding-top: 50px;
-  padding-bottom: 10px;
-  font-family: "Be Vietnam", sans-serif;
+  background-color: #222020;
   height: 100%;
   width: 100%;
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
 
 #root {
@@ -31,7 +35,7 @@ body {
 .nav-btns .btn {
   padding: 3px 13px;
   background-color: #343a40;
-  
+
 }
 
 .btn:hover {
@@ -167,8 +171,6 @@ a:hover {
 @media (max-width: 600px) {
   body {
     margin-top: 30px;
-    background-image: none;
-    background-color: #971d1d;
   }
 
   h5 {
