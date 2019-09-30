@@ -164,9 +164,9 @@ a:hover {
   }
 }
 
-@media (max-width: 604.98px) {
+@media (max-width: 600px) {
   body {
-    padding-bottom: 30px;
+    margin-top: 30px;
     background-image: none;
     background-color: #971d1d;
   }
@@ -201,11 +201,5 @@ a:hover {
 
   .card:hover {
     box-shadow: none;
-  }
-}
-
-@media (max-width: 450px) {
-  body {
-    padding-top: 70px;
   }
 }
