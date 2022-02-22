@@ -1,4 +1,5 @@
 const api = "https://api.rawg.io/api/games/";
+const key = "?key=f9d8249df51b4b12bf1b1f59eac445c2";
 const request = new XMLHttpRequest();
 var getUrl = window.location.href;
 var url = new URL(getUrl);
@@ -13,7 +14,7 @@ function backButton() {
 }
 
 function getGameData() {
-  request.open("GET", api + gameTitle, true);
+  request.open("GET", api + gameTitle + key, true);
   request.onload = function () {
     var data = JSON.parse(this.response);
     if (request.status >= 200 && request.status < 400) {

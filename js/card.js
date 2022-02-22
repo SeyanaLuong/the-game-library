@@ -1,5 +1,5 @@
 const app = document.getElementById("root");
-const nextPage = "https://api.rawg.io/api/games?page=";
+const nextPage = "https://api.rawg.io/api/games?key=f9d8249df51b4b12bf1b1f59eac445c2&page=";
 const bySize = "&page_size=";
 const searchQuery = "&search=";
 const request = new XMLHttpRequest();
@@ -24,7 +24,7 @@ if (page) {
 
 var input = document.getElementById("gameTitle");
 input.addEventListener("keyup", function (e) {
-  if (e.keyCode === 13) {
+  if (e === 13) {
     e.preventDefault();
     document.getElementById("submitBtn").click();
   }
